@@ -1,0 +1,115 @@
+*{
+  margin: 0 auto; /* Center the layout */
+  font-size:  38px;
+  background-color: white;
+}
+
+#header {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ebf7+0,f5d3eb+68,efb7d6+70,f7c7e8+100 */
+  background: #f7ebf7; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7ebf7 0%, #f5d3eb 68%, #efb7d6 70%, #f7c7e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7ebf7 0%,#f5d3eb 68%,#efb7d6 70%,#f7c7e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7ebf7 0%,#f5d3eb 68%,#efb7d6 70%,#f7c7e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ebf7', endColorstr='#f7c7e8',GradientType=0 ); /* IE6-9 */
+padding-bottom: 0.1em;
+width: 100%;
+
+}
+button{
+
+font-size: 0.7em;
+color: pink;
+width: auto;
+border-radius: 45%;
+border:3px;
+border-style: solid;
+border-color: white;
+}
+
+button:hover{
+color: #D55DA6;
+
+}
+#GR{
+
+  background-size: contain;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/255px-Flag_of_Greece.svg.png);
+  color: blue;
+}
+#GR:hover{color: #D55DA6;}
+
+#navbar {
+
+    position: static;
+    background-color: #f181bf;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+
+}
+#navbar ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+#navbar li {
+    float: left;
+    font-size: 0.6em;
+    margin: 0;
+    padding-right: 5px;
+background-color: transparent;
+}
+#navbar li a {
+
+    padding: 0px 10px;
+    margin: 0;
+    text-decoration:  none;
+    font-weight: 300;
+    font-family: "Cardo",serif;
+    color: white;
+    text-shadow: 3px 2px rgb(90,0,80);
+    text-align: right;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8a6d7+2,f4badc+65,f5e5ed+67,f4badc+73,f181bf+86 */
+background: #f8a6d7; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f8a6d7 2%, #f4badc 65%, #f5e5ed 67%, #f4badc 73%, #f181bf 86%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f8a6d7 2%,#f4badc 65%,#f5e5ed 67%,#f4badc 73%,#f181bf 86%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f8a6d7 2%,#f4badc 65%,#f5e5ed 67%,#f4badc 73%,#f181bf 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8a6d7', endColorstr='#f181bf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#navbar li a:hover {
+    text-shadow: 2px 2px 15px  rgb(90,0,70);
+}
+
+#main{
+  float:left;
+
+
+}
+img{
+  object-fit: ;
+  float:none;
+  max-width: 50%;
+
+}
+#img1{}
+#img2{}
+
+
+#second{
+  float: left;
+
+}
+#third{
+  float: left;
+}
+#footer{
+  background-color: pink;
+  float: right;
+}
